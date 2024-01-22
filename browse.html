@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HTB Plus - Browse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="img/HTB-Icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="carousel.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
+  <script src="loading.js"></script>
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 550px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="logo">
+            <img src="img/HTB Plus Logo.png" alt="">
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="#">Music</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search HTB">
+        </div>
+    </nav>
+
+    <section id="loader">
+      <div id="loader-content">
+          <img src="img/HTB Plus Logo.png" alt="">
+          <div class="half-circle-spinner">
+              <div class="circle circle-1"></div>
+              <div class="circle circle-2"></div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/HTB Plus Header0001.jpg" alt="">
+    </div>
+      <div class="swiper-slide"><img src="img/HTB Plus Header0002.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/HTB Plus Header0003.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/HTB Plus Header0004.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/HTB Plus Header0005.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/HTB Plus Header0006.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/HTB Plus Header0007.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <div id="HTBTitle">
+    <div class="center-content title-text">Newest Content</div>
+</div>
+<div class="container">
+  <div class="slider">
+    <img src="img/Beendows-X-Poster-V2.jpg">
+    <img src="img/Poster02.jpg">
+    <img src="img/Poster01.jpg">
+    <img src="img/Poster04.jpg">
+  </div>
+</div>
+</div>
+<div id="HTBTitle">
+  <div class="center-content title-text">Upcoming Content</div>
+</div>
+<div class="container">
+<div class="slider">
+  <img src="img/Cops-in-Disguise-Poster.jpg">
+  <img src="img/Poster03 (1).jpg">
+  <img src="img/HTB Poster0001.jpg">
+  <img src="img/HTB Poster0002.jpg">
+</div>
+</div>
+<div id="HTBTitle">
+  <div class="center-content title-text">Trending</div>
+</div>
+<div class="container">
+<div class="slider">
+  <img src="img/Beendows-X-Poster-V2.jpg">
+  <img src="img/Poster01.jpg">
+  <img src="img/Poster04.jpg">
+  <img src="img/Poster02.jpg">
+</div>
+</div>
+<div id="HTBTitle">
+  <div class="center-content title-text">Music</div>
+</div>
+<div class="container">
+<div class="slider">
+  <img src="https://static.wikia.nocookie.net/hccartoons/images/c/cb/Harry-J.-Coffee---Abuser-Cover2.jpg/revision/latest?cb=20231030123934&format=original">
+  <img src="https://static.wikia.nocookie.net/hccartoons/images/c/ce/Victim-%28Single%29-Cover.jpg/revision/latest?cb=20231121172005&format=original">
+  <img src="https://static.wikia.nocookie.net/hccartoons/images/d/d8/Harry-J.-Coffee---The-Ultimate-Collection-Cover.jpg/revision/latest?cb=20240106201904&format=original">
+  <img src="https://static.wikia.nocookie.net/hccartoons/images/c/cd/Resurrectionalbum.jpg/revision/latest?cb=20240106142808&format=original">
+</div>
+<script src="carousel.js" defer></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>

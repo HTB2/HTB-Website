@@ -115,7 +115,7 @@ ul, li {
   position: relative;
   overflow: hidden;
   height: 700px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .series-cover::after {

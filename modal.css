@@ -118,6 +118,10 @@ ul, li {
   border-radius: 20px 20px 0px 0px;
 }
 
+.series-cover img{
+  border-radius: 20px 20px 0px 0px;
+}
+
 .series-cover::after {
     content: "";
     position: absolute;

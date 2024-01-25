@@ -28,8 +28,8 @@ body {
 }
 
 img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 img, svg {
@@ -115,7 +115,7 @@ ul, li {
   position: relative;
   overflow: hidden;
   height: 700px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px;
 }
 
 .series-cover::after {
@@ -147,6 +147,10 @@ ul, li {
   line-height: 1;
   font-weight: 300;
   color: white;
+}
+.series-title img{
+  width: 500px;
+  height: auto;
 }
 
 .series-info {

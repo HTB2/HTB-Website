@@ -248,10 +248,10 @@ ul, li {
       color: #adadad;
       line-height: 1.5;
       
-      :not(:last-child) {
+      .person-item:not(:last-child) {
         margin-right: 8px;
         
-        ::after {
+        .person-item::after {
           content: ",";
         }
       }

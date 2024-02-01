@@ -23,7 +23,6 @@ nav{
 }
 .logo img{
     height: 50px;
-    right: 12px
 }
 .logo2 img{
     height: 60px;
@@ -155,10 +154,6 @@ nav .menu-btn{
     .center-content {
         width: calc(63% + 445px);
     }
-}
-@media (max-width: 683px) {
-	.logo img {
-		left: calc(60% + -12px)
 }
 .document-container {
     display: flex;

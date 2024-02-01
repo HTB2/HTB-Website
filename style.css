@@ -156,7 +156,7 @@ nav .menu-btn{
     }
 }
 @media (max-width: 683px) {
-	.logo{
+	.logo img {
 		left: calc(60% + -12px)
 }
 .document-container {

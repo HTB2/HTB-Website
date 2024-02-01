@@ -155,6 +155,10 @@ nav .menu-btn{
         width: calc(63% + 445px);
     }
 }
+@media (max-width: 683px) {
+	.logo{
+		left: calc(60% + -12px)
+}
 .document-container {
     display: flex;
     justify-content: center;

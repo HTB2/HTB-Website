@@ -8,7 +8,7 @@
 	text-align: left;
 }
 .video-sec-middle {
-	grid-template-columns: repeat(5,1fr);
+	grid-template-columns: repeat(4,1fr);
 	display: grid;
 	justify-content: center;
 	align-content: center;
@@ -72,7 +72,7 @@
 }
 @media only screen and (max-width: 1456px) {
 	.video-sec-middle {
-		grid-template-columns: repeat(4,1fr);
+		grid-template-columns: repeat(2,1fr);
 	}
 }
 @media only screen and (max-width: 1024px) {

@@ -31,11 +31,11 @@
 }
 .thumb:hover {
 	opacity: .8;
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+	box-shadow: 0 5px 10px 0 rgba(0, 183, 255, .5);
 }
 .thumb-info {
 	display: inline-block;
-	height: 100%;
+	height: auto;
 	width: 100%;
 	padding: .4em;
 }

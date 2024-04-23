@@ -1,8 +1,8 @@
-.vjs-watermark{
-  position: absolute;
+.vjs-watermark {
+    position: absolute;
     display: inline;
     z-index: 1;
-    bottom: 485px;
-    left: 20px;
-    height: 60px;
+    bottom: 482px;
+    left: 15px;
+    height: 67px;
               }

@@ -216,7 +216,7 @@ nav .menu-btn{
     margin: 10px 10px;
   }
   p{
-    font-family: 'Helvetica Neue';
+    font-family: 'Roboto';
     font-weight: light;
     font-size: 30px;
     color: #fff;
@@ -258,7 +258,7 @@ nav .menu-btn{
   color: white;
   display: flex;
   list-style: none;
-  font-family: 'Helvetica Neue';
+  font-family: 'Roboto';
   font-weight: light;
   font-size: 1.2em;
   border-right: 1px solid #fff;
@@ -270,7 +270,7 @@ nav .menu-btn{
 #content p{
   width: 100%;
   color: #535353;
-  font-family: 'Helvetica Neue';
+  font-family: 'Roboto';
   font-weight: light;
   font-size: 1.1em;
   padding: 0 20px 0 20px;
@@ -280,7 +280,7 @@ nav .menu-btn{
   font-weight: bold;
 }
 .newstitle{
-  font-family: 'Helvetica Neue';
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 3em;
   margin-top: 20px;
@@ -317,7 +317,7 @@ nav .menu-btn{
 #watch-listen {
 	background-color: #1a1a1a;
   color: whitesmoke;
-  font-family: Helvetica Neue;
+  font-family: Roboto;
 	width: 300px;
 	padding: 3px 25px 0 0px;
   padding-left: 10px;
@@ -385,7 +385,7 @@ nav .menu-btn{
 	font-size: 16px;
 	line-height: 20px;
 	color: white;
-  font-family: Helvetica Neue;
+  font-family: Roboto;
   font-weight: normal;
 }
 .aside-links .aside-heading:hover{
@@ -399,7 +399,7 @@ nav .menu-btn{
 	color: #999;
 	padding: 2px;
 	margin-top: -10px;
-  font-family: Helvetica Neue;
+  font-family: Roboto;
 }
 #aside-share {
 	background-color: #1a1a1a;
@@ -410,7 +410,7 @@ nav .menu-btn{
 #aside-share a {
   margin-left: 12px;
 	text-decoration: none;
-	font-family: Helvetica Neue;
+	font-family: Roboto;
   color: white;
 }
 #aside-share i {
@@ -437,7 +437,7 @@ nav .menu-btn{
     background-size: 16px 16px;
     background-position: left 7px;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: Roboto;
   }
   #email {
     background: url("https://image.flaticon.com/icons/svg/131/131155.svg");
@@ -445,7 +445,7 @@ nav .menu-btn{
     background-size: 16px 16px;
     background-position: left 7px;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: Roboto;
   }
   #twitter {
     background: url("https://image.flaticon.com/icons/svg/8/8800.svg");
@@ -453,13 +453,13 @@ nav .menu-btn{
     background-size: 16px 16px;
     background-position: left 7px;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: Roboto;
   }
   
   #aside-contact ul li a {
     text-decoration: underline;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: Roboto;
     font-weight: 500;
 }
 /* L O A D I N G  S C R E E N */

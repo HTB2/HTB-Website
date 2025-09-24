@@ -75,13 +75,11 @@
 	font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	color: white;
 	cursor: pointer;
-	&:hover{
+}
+.video-showmore:hover{
     background-color: navy;
     color: white;
     transition: all .35s ease;
-  }
-  
-}
 }
 @media only screen and (max-width: 1456px) {
 	.video-sec-middle {
@@ -103,5 +101,6 @@
    grid-template-columns: repeat(1,1fr);
   }
 }
+
 
 

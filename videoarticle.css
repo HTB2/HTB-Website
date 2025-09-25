@@ -68,18 +68,21 @@
     margin-bottom: 50px;
 }
 .video-showmore {
-	padding: 10px 20px;
+	padding: 0.65em 1.5em;
+	font-size: 16px;
 	background-color: #080808;
-	border: 2px solid white;
-	border-radius: 5px;
+	border: 1.5px solid white;
+	border-radius: 4px;
 	font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	color: white;
+	text-transform: uppercase;
 	cursor: pointer;
 }
 .video-showmore:hover{
-    background-color: navy;
+    background-color: #00b7ff;
+	border: 1.5px solid #00b7ff;
     color: white;
-    transition: all .35s ease;
+    transition: all .0s ease;
 }
 @media only screen and (max-width: 1456px) {
 	.video-sec-middle {
@@ -101,6 +104,7 @@
    grid-template-columns: repeat(1,1fr);
   }
 }
+
 
 
 

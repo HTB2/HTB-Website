@@ -39,9 +39,7 @@
 .video-sec .video-sec-middle .thumb-wrap:nth-child(27),
 .video-sec .video-sec-middle .thumb-wrap:nth-child(28),
 .video-sec .video-sec-middle .thumb-wrap:nth-child(29),
-.video-sec .video-sec-middle .thumb-wrap:nth-child(30),
-.video-sec .video-sec-middle .thumb-wrap:nth-child(31),
-.video-sec .video-sec-middle .thumb-wrap:nth-child(32){
+.video-sec .video-sec-middle .thumb-wrap:nth-child(30){
 	display: inline-block;
 }
     </style>
@@ -2500,14 +2498,14 @@ The squad travel through time as if they met a former member named Bisuta
     <script>
 
 let loadMoreBtn = document.querySelector('#load-more');
-let currentItem = 32;
+let currentItem = 30;
 
 loadMoreBtn.onclick = () =>{
    let boxes = [...document.querySelectorAll('.video-sec .video-sec-middle .thumb-wrap')];
-   for (var i = currentItem; i < currentItem + 32; i++){
+   for (var i = currentItem; i < currentItem + 30; i++){
       boxes[i].style.display = 'inline-block';
    }
-   currentItem += 32;
+   currentItem += 30;
 
    if(currentItem >= boxes.length){
       loadMoreBtn.style.display = 'none';

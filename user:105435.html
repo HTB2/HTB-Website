@@ -2500,14 +2500,14 @@ The squad travel through time as if they met a former member named Bisuta
     <script>
 
 let loadMoreBtn = document.querySelector('#load-more');
-let currentItem = 30;
+let currentItem = 32;
 
 loadMoreBtn.onclick = () =>{
    let boxes = [...document.querySelectorAll('.video-sec .video-sec-middle .thumb-wrap')];
-   for (var i = currentItem; i < currentItem + 30; i++){
+   for (var i = currentItem; i < currentItem + 32; i++){
       boxes[i].style.display = 'inline-block';
    }
-   currentItem += 30;
+   currentItem += 32;
 
    if(currentItem >= boxes.length){
       loadMoreBtn.style.display = 'none';

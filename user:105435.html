@@ -2454,8 +2454,28 @@ The squad travel through time as if they met a former member named Bisuta
 </font></font></p>
                     </div>
                 </a></li></ul>
+            <div class="loadbutton">
+<div id="load-more"> load more </div>
+</div>
         </div>
-    <script src="videoarticle.js"></script>
+    <script>
+
+let loadMoreBtn = document.querySelector('#load-more');
+let currentItem = 32;
+
+loadMoreBtn.onclick = () =>{
+   let boxes = [...document.querySelectorAll('.video-sec .video-sec-middle .thumb-wrap')];
+   for (var i = currentItem; i < currentItem + 32; i++){
+      boxes[i].style.display = 'inline-block';
+   }
+   currentItem += 32;
+
+   if(currentItem >= boxes.length){
+      loadMoreBtn.style.display = 'none';
+   }
+}
+
+</script>
 
 
 

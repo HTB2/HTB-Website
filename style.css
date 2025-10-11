@@ -518,7 +518,31 @@ nav .menu-btn{
   border-bottom-color: #fff;
   animation: half-circle-spinner-animation 1s infinite alternate;
 }
-
+#load-more{
+	display: flex;
+	font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	border-radius: 4px;
+	border: 1px solid white;
+	cursor: pointer;
+	line-height: 1;
+	padding: 0.75em 1.5em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin: 2em 0 2em 0;
+}
+#load-more:hover{
+	border: 1px solid #00b7ff;
+	background: #00b7ff;
+}
+.loadbutton{
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @keyframes half-circle-spinner-animation {
   0% {
       transform: rotate(0deg);

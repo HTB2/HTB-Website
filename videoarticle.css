@@ -81,7 +81,7 @@
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	margin: 2em 0 2em 0;
+	margin: 0em 0 0em 0;
 }
 #load-more:hover{
 	border: 1px solid #00b7ff;
@@ -112,6 +112,7 @@
    grid-template-columns: repeat(1,1fr);
   }
 }
+
 
 
 

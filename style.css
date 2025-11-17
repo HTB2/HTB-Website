@@ -543,6 +543,17 @@ nav .menu-btn{
     align-items: center;
     justify-content: center;
 }
+.viewing-code{
+  position: absolute;
+  bottom: 5px;
+  right: -2px;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 11px;
+  padding: 4px;
+  background: #00b7ff;
+  color: rgba(255, 255, 255, 0.72);
+  border-radius: 5px;
+}
 @keyframes half-circle-spinner-animation {
   0% {
       transform: rotate(0deg);

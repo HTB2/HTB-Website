@@ -554,6 +554,33 @@ nav .menu-btn{
   color: rgba(255, 255, 255, 0.72);
   border-radius: 5px;
 }
+.counter-footer-logo-wrap {
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+.nest-logo {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}
+.counter-footer-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Overused Grotesk', sans-serif;
+    font-size: 0.72rem;
+    color: #ccc;
+}
+.counter-footer-links a{
+    color: #ccc;
+}
+.counter-footer-copy {
+    font-family: 'Overused Grotesk', sans-serif;
+    font-size: 0.58rem;
+    color: #c4c4c4;
+    text-align: center;
+    line-height: 1.6;
+}
 @keyframes half-circle-spinner-animation {
   0% {
       transform: rotate(0deg);

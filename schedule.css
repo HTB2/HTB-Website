@@ -1,0 +1,146 @@
+@import url(https://db.onlinewebfonts.com/c/2307ac95729df0757b461f4bebd3df2d?family=Helvetica+Neue+Extra+Black+Condensed);
+@import url(https://db.onlinewebfonts.com/c/fd2bae1d67c789adf8a1ea32e081e495?family=Helvetica+Neue+Thin);
+
+.schedule-title {
+    font-family: Helvetica Neue Extra Black Condensed;
+    color: white;
+    padding-left: 25;
+    padding-bottom: 10;
+    border-bottom: 2px solid white;
+}
+.schedule-page {
+    align-items: stretch;
+    background: #080808;
+    padding: 20px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid #333;
+    margin-top: -4px;
+    margin-bottom: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.schedule-header {
+    font-family: Helvetica Neue Extra Black Condensed;
+    margin: 0;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.full-schedule-list {
+    display: flex;
+    flex-direction: column;
+}
+.full-schedule-item {
+    display: flex;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    padding: 20px;
+    gap: 15px;
+}
+.start-item {
+    border-top: 1px solid #666;
+}
+.schedule-img-wrap {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.schedule-img-wrap img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background: #222;
+}
+
+.schedule-time {
+    font-family: Helvetica Neue Extra Black Condensed;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    width: 50px;
+    flex-shrink: 0;
+    padding-top: 0px;
+}
+
+.schedule-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-text h3 {
+    font-family: Helvetica Neue Thin;
+    font-size: 1.1rem;
+    margin-top: 2px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.schedule-text h3.is-new {
+    color: #0099ff;
+}
+
+.schedule-text h3.is-found {
+    color: #ffff59;
+}
+
+.schedule-text h4 {
+    font-family: Helvetica Neue Thin;
+    font-size: 0.75rem;
+    color: #ccc;
+    margin-top: -15;
+    margin-bottom: 6px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.schedule-text p {
+    font-family: Helvetica Neue Thin;
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-top: 0;
+    line-height: 1.3;
+    max-width: 500px;
+}
+
+.schedule-rating {
+    flex-shrink: 0;
+}
+
+.rating-box {
+    font-family: Helvetica Neue Thin;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+
+.rating-box img {
+    width: 40px;
+    height: auto;
+    display: block;
+}
+
+.schedule-footer-bar {
+    padding: 15px 20px;
+    font-family: Helvetica Neue Thin;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+.blue-text {
+    color: #0099ff;
+}
+.yellow-text {
+    color: #ffff59;
+}

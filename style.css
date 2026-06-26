@@ -581,6 +581,31 @@ nav .menu-btn{
     text-align: center;
     line-height: 1.6;
 }
+.schedule-button{
+    font-family: 'Overused Grotesk', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.75em 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0em 0 0em 0;
+}
+.schedule-button a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.schedule-button:hover{
+  border: 1px solid #00b7ff;
+	background: #00b7ff;
+}
 @keyframes half-circle-spinner-animation {
   0% {
       transform: rotate(0deg);
